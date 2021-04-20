@@ -233,7 +233,7 @@ div.barre-verticale {
 
 footer
 {
-    background: rgb(67, 5, 124);
+    background: rgb(30, 0, 58);
     padding: 20px 0px 35px;
     width:100%;
 }
@@ -267,8 +267,7 @@ footer h5
 
 .navbar
 {
-    background: rgb(67, 5, 124) !important;
-
+    background: rgb(30, 0, 58) !important;
     font-size:12px;
     text-transform: uppercase;
     font-weight: bold;
