@@ -21,6 +21,31 @@ div.cover {
     position: relative;
 }
 
+/* AFFICHAGE TELEPHONE */
+
+@media only screen and (max-width: 370px)
+{
+    div.cover 
+    {
+        height: 440px;
+    }
+
+    .cover img
+    {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 430px)
+{
+
+    .section.section-grise1
+    {
+        min-width: 250px;
+    }
+}
+
+
 #titre
 {
     padding-top: 47px;
@@ -53,9 +78,7 @@ div.section-grise1 {
 }
 
 div.section-grise1 p {
-    min-width: 350px;
     margin-top: 10px;
-
 }
 
 
@@ -63,8 +86,8 @@ div.section-grise2 {
     background:url(images/triangle1white.svg) no-repeat center top/100%;
     background-color: var(--couleur2);
     padding-top: 80px;
-
 }
+
 
 img.identite {
     margin-top: 1%;
@@ -186,9 +209,25 @@ div.barre-verticale {
     margin-right: 8px;
 }
 
-table.col-portfolio {
-    width: 45%;
+
+
+/* AFFICHAGE TELEPHONE */
+
+@media only screen and (min-width: 450px)
+{
+    table.col-portfolio 
+    {
+        width: 45%;
+    }
+    
 }
+
+/* @media only screen and (max-width: 430px)
+{
+
+
+} */
+
 
 /* FOOTER */
 
