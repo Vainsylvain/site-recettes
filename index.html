@@ -1,82 +1,141 @@
 <!DOCTYPE html>
 <html lang="fr">
-    
-    <head>
-        
-        <title>Recette de gâteau au chocolat</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="recette.css"/>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+	<title>Sylvain Boulloud - Pâtissier amateur</title>
+</head>
 
-    </head>
-    
-    <body>
-        <div class="contenu">  
-            <div class="centre categorie">
-                <p class="categorie">Recette</p>
-            </div>
+<body data-spy="scroll" data-target=".navbar" offset="600px">
 
-        
-            <h1>Le gâteau au chocolat</h1>
-                
-                    <div class="seperateur">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div >
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#titre">En-Tête</a></li>
+                        <li><a href="#savoir_plus">En savoir plus</a></li>
+                        <li><a href="#recettes">Recettes</a></li>
+                        <!-- <li><a href="#education">Education</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li> -->
+                    </ul>
+                <div>
 
-                    </div>
-
-                    <div class="centre">
-                        <p class="description">" Cette recette facile du gâteau au chocolat est un grand classique. Elle fera plaisir aux gourmands "</p>
-                </div>     
-                
-                <div class="info">
-                    <img class="centre" src="https://jonathanroux.com/gateau.jpg">
-    
-
-                    <nav>
-                        
-                        <table class="info">
-
-                            <tr>
-                                <th>Difficulté</th>
-                                <th>Préparation</th>
-                                <th>Cuisson</th>
-                                <th>Temps total</th>
-                            </tr>
-
-                            <tr>
-                                <td>Facile</td>
-                                <td>10 min</td>
-                                <td>25 min</td>
-                                <td>25 min</td>
-                            </tr>
-
-                        </table>
                 </div>
-                    <div>   
-                        <div class="colonne1 colonne">
-                            <h2>Ingrédients</h2>
-                            <div class="liste1 liste">
-                                <p>Chocolat noir : 200 g</p>
-                                <p>Sucre : 150g</p>
-                                <p>Beurre : 200 g</p>
-                                <p>Oeufs : 4</p>
-                                <p>Farine : 80 g</p>
-                            </div>
-                        </div>
-                        <div class="colonne2 colonne">
-                            <h2>Préparation</h2>
+            </div>
+        </nav>
+<div id="titre"></div>
+    <!-- COVER -->
+    <div class="cover" >
+        <div class="titre">
+                <img class="img-circle cover-profile" src="images/Moi.JPG">
+                <h1>Sylvain Boulloud</h1>
+                <P>Etudiant développeur | Pâtissier amateur</P>
+                <a class="contact-button" href="mailto:sylvain.boulloud@itech.fr?subject=Contact%20depuis%20Portfolio%20Sylvain%20Boulloud">ME CONTACTER</a>
+            </div>
+            <div class="cover-contact">
+                <p><a href="mailto:sylvain.boulloud@itech.fr?subject=Contact%20depuis%20Portfolio%20Sylvain%20Boulloud">Sylvain.Boulloud@itech.fr</a></p>
+                <p><a href="tel:+330609369387">06 09 36 93 87</a></p>
+            </div>
+    </div>
 
-                            <div class="liste2 liste">
-                                <table class="preparation">
-                                    <tr><td><p class="numero">1</p></td><td class="preparation_etape">Faire fondre le chocolat avec le beurre</td></tr>
-                                    <tr><td><p class="numero">2</p></td><td class="preparation_etape">Mélanger le sucre, les oeufs et la farine</td></tr>
-                                    <tr><td><p class="numero">3</p></td><td class="preparation_etape">Mélanger le tout pour faire une pâte</td></tr>
-                                    <tr><td><p class="numero">4</p></td><td class="preparation_etape">Mettre au four le temps indiqué</td></tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div> 
-            </nav>  
-        </div>  
-    </body>
+    <!-- SECTION GRISE 1 -->
+        <div class="section section-grise1">
+            <div class="separateur"></div>
+                <p>Cette page est dédiée à la <strong>pâtisserie</strong>. Comme un bon <strong>chimiste</strong> se doit d'être un bon <strong>pâtissier</strong> voici de quoi en juger par vous-même !</p>
+        </div>
+
+    <!-- SECTION BLANCHE -->
+        <div class="section" id="savoir_plus">
+            <h2>En savoir plus</h2>
+            <img class="col40" src="images/langage_python.jpg">
+                <div class="col60 float-right" style="padding-left: 16px">
+                    <div class="texte-avec-ligne-verticale">
+                        <p><b>Ingénieur chimiste</b> de formation, spécialisé en qualité via mes différentes expériences professionnelles.
+                                J'ai progressivement acquis et nourri une passion pour le codage. D'abord sur excel (VBA) dans une 
+                                optique de productivité et d'exploitation d'un grand nombre de données pour être un ingénieur 
+                                qualité efficace. Puis progressivement sur <strong>Python, HTML/CSS | Javascript</strong><!-- A COMPLETER -->
+                                dans une optique d'apprentissage et de stimulation de la créativité pour une reconversion professionnelle. 
+                                Je souhaite aujourd'hui me former au développement WEB, d'applications mobiles et d'applications bureau tout en me spécialisant dans la <strong>cybersécurité</strong>.
+                            <br><br>N'ayant plus réellement d'occasion de manipuler à la paillasse. J'expérimente, pendant mon temps libre,
+                        la fabrication de certaines pâtisseries. Je partage avec vous ces recettes illustrées sur cette page.</p>
+                    </div>
+                </div>
+        </div>
         
+    <!-- SECTION GRISE 2 -->
+        <div class="section section-grise2" id="recettes">
+            <h2>Recettes</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <table class="col-portfolio" style="display:inline-block">
+                            <tr>
+                                <td><div class="barre-verticale"></div></td>
+                                <td><img style="width:100%; padding:0px 0px 20px 0px" src="images/foret_noire_framboise.jpg"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td style="font-size: 18px; font-weight: bold;" align="center"><a href="./foret_noire.html" target="_blank">La Forêt Noire</a></td>
+                            </tr>
+                        </table>
+                        <table class="col-portfolio float-right">
+                            <tr>
+                                <td><div class="barre-verticale"></div></td>
+                                <td><img style="width:100%; padding:0px 0px 20px 0px"  src="images/cheesecake_citron_meringue.jpg"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td style="font-size: 18px; font-weight: bold; " align="center"><a href="./cheesecake_citron_meringue.html" target="_blank">Le Cheesecake citron meringué</a></td>
+                            </tr>
+                        </table>  
+                    </div>
+                </div>
+            </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <table class="col-portfolio" style="display:inline-block">
+                                <tr>
+                                    <td><div class="barre-verticale"></div></td>
+                                    <td><img style="width:100%; padding:0px 0px 20px 0px" src="images/charlotte_aux_fraises.jpg"></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="font-size: 18px; font-weight: bold;" align="center"><a href="./charlotte_aux_fraises.html" target="_blank">La Charlotte aux Fraises</a></td>
+                                </tr>
+                            </table>
+                            <table class="col-portfolio float-right">
+                                <tr>
+                                    <td><div class="barre-verticale"></div></td>
+                                    <td><img style="width:100%; padding:0px 0px 20px 0px"  src="./images/cheesecake_banane_recette_maison.jpg"></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="font-size: 18px; font-weight: bold; " align="center"><a href="./cheesecake_banane.html" target="_blank">Le Cheesecake banane chocolat</a></td>
+                                </tr>
+                            </table>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center">
+            <a href="#titre"><span class="glyphicon glyphicon-chevron-up"></span></a>
+            <h5>2021 - Sylvain Boulloud</h5>
+        </footer>
+</body>
 </html>
