@@ -104,10 +104,7 @@ div.titre h1 {
     color: whitesmoke;
     font-size: 3.5em;
     position: relative;
-}
-
-div.titre h1 {
-margin: 0px;
+    margin: 0px;
 }
 
 a.contact-button {
@@ -210,6 +207,10 @@ div.barre-verticale {
 }
 
 
+.separateur_images
+{
+    height: 20px;
+}
 
 /* AFFICHAGE TELEPHONE */
 
@@ -228,6 +229,31 @@ div.barre-verticale {
 
 } */
 
+
+/* RECETTES */
+
+.lienrecette
+{
+    text-shadow: 2px 1px 10px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: bolder;
+    color: blanchedalmond;
+}
+
+.imgrecette
+{
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.imgrecette:hover
+{
+    transform:scale(1.2);
+}
 
 /* FOOTER */
 
